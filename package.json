@@ -1,0 +1,35 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API RESTful en Node.js y Expess para Finetuning SFT, Vector DB y Reranker",
+  "keywords": [
+    "fine-tuning",
+    "rag",
+    "reranker",
+    "vertor-db",
+    "ai"
+  ],
+  "homepage": "https://github.com/DeniseLH1/base_datos_vectoriales#readme",
+  "bugs": {
+    "url": "https://github.com/DeniseLH1/base_datos_vectoriales/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeniseLH1/base_datos_vectoriales.git"
+  },
+  "license": "ISC",
+  "author": "DeniseLH1",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "express-validator": "^7.3.2"
+  }
+}
