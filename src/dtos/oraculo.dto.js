@@ -1,4 +1,4 @@
-export class ParFineTuningDTO {
+﻿export class ParFineTuningDTO {
   constructor(data = {}) {
     this.dominio = String(data.dominio ?? "").trim().toLowerCase();
     this.tono = String(data.tono ?? "profesional y pedagógico").trim().toLowerCase();
